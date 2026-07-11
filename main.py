@@ -6,7 +6,7 @@ from app.api.prediction import router as prediction_router
 
 
 app = FastAPI(
-    title="Smart Autocomplete Engine",
+    title="Smart Autocomplete and Autocorrect Engine",
     description="FastAPI backend for autocomplete, autocorrect, next-word prediction, and sentence autocomplete.",
     version="1.0.0"
 )
@@ -20,6 +20,6 @@ app.include_router(prediction_router)
 @app.get("/")
 def home():
     return {
-        "message": "Smart Autocomplete Engine API",
+        "message": "Smart Autocomplete and Autocorrect Engine API",
         "docs": "/docs"
     }
