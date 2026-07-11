@@ -23,8 +23,7 @@ A production-oriented Natural Language Processing (NLP) backend that provides **
 ```text
 autocomplete-engine/
 │
-├── app/
-│   ├── api/
+-----─ api/
 │   │   ├── autocomplete.py
 │   │   ├── autocorrect.py
 │   │   └── prediction.py
