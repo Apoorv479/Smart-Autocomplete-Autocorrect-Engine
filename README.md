@@ -71,10 +71,10 @@ autocomplete-engine/
                 Trie Search
                      │
          ┌─────────┴───────────┐
-         │                         │
-         ▼                         ▼
+         │                     │
+         ▼                     ▼
 Autocomplete              Spell Correction
-         │                          │
+         │                      │
          └─────── ──┬───────────┘
                      ▼
              Suggestion Ranking
